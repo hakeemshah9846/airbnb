@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: green;
+}
+
+header {
+    padding: 0px 80px 0px 80px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-middle {
+    display: flex;
+}
+
+#nav-right {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+}
+
+#logo {
+    /* border: 2px solid red; */
+    width: 50px;
+    height: 50px;
+}
+
+#search {
+    border-radius: 100%;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 27px;
+    background-color: red;
+}
+
+
+
+#nav-right button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 86px;
+    height: 48px;
+}
+
+#nav-right-icon {
+    width: 20px;
+    height: 20px;
+}
+
+#nav-right-menu{
+    /* border: 3px solid red; */
+    width: 20px;
+    height: 20px;
+}
+
+#nav-right-profile {
+    width: 30px;
+    height: 30px;
+}
